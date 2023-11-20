@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFF7F2392B0C097600BAB1E2 /* Live_Meeting_HandlerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF7F2382B0C097600BAB1E2 /* Live_Meeting_HandlerApp.swift */; };
+		EFF7F23B2B0C097600BAB1E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF7F23A2B0C097600BAB1E2 /* ContentView.swift */; };
+		EFF7F23D2B0C097600BAB1E2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF7F23C2B0C097600BAB1E2 /* Item.swift */; };
+		EFF7F23F2B0C097800BAB1E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF7F23E2B0C097800BAB1E2 /* Assets.xcassets */; };
+		EFF7F2432B0C097800BAB1E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFF7F2422B0C097800BAB1E2 /* Preview Assets.xcassets */; };
+		EFF7F24E2B0C097800BAB1E2 /* Live_Meeting_HandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF7F24D2B0C097800BAB1E2 /* Live_Meeting_HandlerTests.swift */; };
+		EFF7F2582B0C097800BAB1E2 /* Live_Meeting_HandlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF7F2572B0C097800BAB1E2 /* Live_Meeting_HandlerUITests.swift */; };
+		EFF7F25A2B0C097800BAB1E2 /* Live_Meeting_HandlerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF7F2592B0C097800BAB1E2 /* Live_Meeting_HandlerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFF7F24A2B0C097800BAB1E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFF7F22D2B0C097600BAB1E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFF7F2342B0C097600BAB1E2;
+			remoteInfo = "Live Meeting Handler";
+		};
+		EFF7F2542B0C097800BAB1E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFF7F22D2B0C097600BAB1E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFF7F2342B0C097600BAB1E2;
+			remoteInfo = "Live Meeting Handler";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFF7F2352B0C097600BAB1E2 /* Live Meeting Handler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Live Meeting Handler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF7F2382B0C097600BAB1E2 /* Live_Meeting_HandlerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live_Meeting_HandlerApp.swift; sourceTree = "<group>"; };
+		EFF7F23A2B0C097600BAB1E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFF7F23C2B0C097600BAB1E2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EFF7F23E2B0C097800BAB1E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFF7F2402B0C097800BAB1E2 /* Live_Meeting_Handler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Live_Meeting_Handler.entitlements; sourceTree = "<group>"; };
+		EFF7F2422B0C097800BAB1E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFF7F2442B0C097800BAB1E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFF7F2492B0C097800BAB1E2 /* Live Meeting HandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Live Meeting HandlerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF7F24D2B0C097800BAB1E2 /* Live_Meeting_HandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live_Meeting_HandlerTests.swift; sourceTree = "<group>"; };
+		EFF7F2532B0C097800BAB1E2 /* Live Meeting HandlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Live Meeting HandlerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF7F2572B0C097800BAB1E2 /* Live_Meeting_HandlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live_Meeting_HandlerUITests.swift; sourceTree = "<group>"; };
+		EFF7F2592B0C097800BAB1E2 /* Live_Meeting_HandlerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live_Meeting_HandlerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFF7F2322B0C097600BAB1E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF7F2462B0C097800BAB1E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF7F2502B0C097800BAB1E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFF7F22C2B0C097600BAB1E2 = {
+			isa = PBXGroup;
+			children = (
+				EFF7F2372B0C097600BAB1E2 /* Live Meeting Handler */,
+				EFF7F24C2B0C097800BAB1E2 /* Live Meeting HandlerTests */,
+				EFF7F2562B0C097800BAB1E2 /* Live Meeting HandlerUITests */,
+				EFF7F2362B0C097600BAB1E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFF7F2362B0C097600BAB1E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFF7F2352B0C097600BAB1E2 /* Live Meeting Handler.app */,
+				EFF7F2492B0C097800BAB1E2 /* Live Meeting HandlerTests.xctest */,
+				EFF7F2532B0C097800BAB1E2 /* Live Meeting HandlerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFF7F2372B0C097600BAB1E2 /* Live Meeting Handler */ = {
+			isa = PBXGroup;
+			children = (
+				EFF7F2382B0C097600BAB1E2 /* Live_Meeting_HandlerApp.swift */,
+				EFF7F23A2B0C097600BAB1E2 /* ContentView.swift */,
+				EFF7F23C2B0C097600BAB1E2 /* Item.swift */,
+				EFF7F23E2B0C097800BAB1E2 /* Assets.xcassets */,
+				EFF7F2402B0C097800BAB1E2 /* Live_Meeting_Handler.entitlements */,
+				EFF7F2442B0C097800BAB1E2 /* Info.plist */,
+				EFF7F2412B0C097800BAB1E2 /* Preview Content */,
+			);
+			path = "Live Meeting Handler";
+			sourceTree = "<group>";
+		};
+		EFF7F2412B0C097800BAB1E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFF7F2422B0C097800BAB1E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFF7F24C2B0C097800BAB1E2 /* Live Meeting HandlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFF7F24D2B0C097800BAB1E2 /* Live_Meeting_HandlerTests.swift */,
+			);
+			path = "Live Meeting HandlerTests";
+			sourceTree = "<group>";
+		};
+		EFF7F2562B0C097800BAB1E2 /* Live Meeting HandlerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFF7F2572B0C097800BAB1E2 /* Live_Meeting_HandlerUITests.swift */,
+				EFF7F2592B0C097800BAB1E2 /* Live_Meeting_HandlerUITestsLaunchTests.swift */,
+			);
+			path = "Live Meeting HandlerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFF7F2342B0C097600BAB1E2 /* Live Meeting Handler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF7F25D2B0C097800BAB1E2 /* Build configuration list for PBXNativeTarget "Live Meeting Handler" */;
+			buildPhases = (
+				EFF7F2312B0C097600BAB1E2 /* Sources */,
+				EFF7F2322B0C097600BAB1E2 /* Frameworks */,
+				EFF7F2332B0C097600BAB1E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Live Meeting Handler";
+			productName = "Live Meeting Handler";
+			productReference = EFF7F2352B0C097600BAB1E2 /* Live Meeting Handler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFF7F2482B0C097800BAB1E2 /* Live Meeting HandlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF7F2602B0C097800BAB1E2 /* Build configuration list for PBXNativeTarget "Live Meeting HandlerTests" */;
+			buildPhases = (
+				EFF7F2452B0C097800BAB1E2 /* Sources */,
+				EFF7F2462B0C097800BAB1E2 /* Frameworks */,
+				EFF7F2472B0C097800BAB1E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFF7F24B2B0C097800BAB1E2 /* PBXTargetDependency */,
+			);
+			name = "Live Meeting HandlerTests";
+			productName = "Live Meeting HandlerTests";
+			productReference = EFF7F2492B0C097800BAB1E2 /* Live Meeting HandlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFF7F2522B0C097800BAB1E2 /* Live Meeting HandlerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFF7F2632B0C097800BAB1E2 /* Build configuration list for PBXNativeTarget "Live Meeting HandlerUITests" */;
+			buildPhases = (
+				EFF7F24F2B0C097800BAB1E2 /* Sources */,
+				EFF7F2502B0C097800BAB1E2 /* Frameworks */,
+				EFF7F2512B0C097800BAB1E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFF7F2552B0C097800BAB1E2 /* PBXTargetDependency */,
+			);
+			name = "Live Meeting HandlerUITests";
+			productName = "Live Meeting HandlerUITests";
+			productReference = EFF7F2532B0C097800BAB1E2 /* Live Meeting HandlerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFF7F22D2B0C097600BAB1E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EFF7F2342B0C097600BAB1E2 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					EFF7F2482B0C097800BAB1E2 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EFF7F2342B0C097600BAB1E2;
+					};
+					EFF7F2522B0C097800BAB1E2 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EFF7F2342B0C097600BAB1E2;
+					};
+				};
+			};
+			buildConfigurationList = EFF7F2302B0C097600BAB1E2 /* Build configuration list for PBXProject "Live Meeting Handler" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFF7F22C2B0C097600BAB1E2;
+			productRefGroup = EFF7F2362B0C097600BAB1E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFF7F2342B0C097600BAB1E2 /* Live Meeting Handler */,
+				EFF7F2482B0C097800BAB1E2 /* Live Meeting HandlerTests */,
+				EFF7F2522B0C097800BAB1E2 /* Live Meeting HandlerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFF7F2332B0C097600BAB1E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF7F2432B0C097800BAB1E2 /* Preview Assets.xcassets in Resources */,
+				EFF7F23F2B0C097800BAB1E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF7F2472B0C097800BAB1E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF7F2512B0C097800BAB1E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFF7F2312B0C097600BAB1E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF7F23B2B0C097600BAB1E2 /* ContentView.swift in Sources */,
+				EFF7F23D2B0C097600BAB1E2 /* Item.swift in Sources */,
+				EFF7F2392B0C097600BAB1E2 /* Live_Meeting_HandlerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF7F2452B0C097800BAB1E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF7F24E2B0C097800BAB1E2 /* Live_Meeting_HandlerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFF7F24F2B0C097800BAB1E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFF7F2582B0C097800BAB1E2 /* Live_Meeting_HandlerUITests.swift in Sources */,
+				EFF7F25A2B0C097800BAB1E2 /* Live_Meeting_HandlerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFF7F24B2B0C097800BAB1E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFF7F2342B0C097600BAB1E2 /* Live Meeting Handler */;
+			targetProxy = EFF7F24A2B0C097800BAB1E2 /* PBXContainerItemProxy */;
+		};
+		EFF7F2552B0C097800BAB1E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFF7F2342B0C097600BAB1E2 /* Live Meeting Handler */;
+			targetProxy = EFF7F2542B0C097800BAB1E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFF7F25B2B0C097800BAB1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFF7F25C2B0C097800BAB1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EFF7F25E2B0C097800BAB1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Live Meeting Handler/Live_Meeting_Handler.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Live Meeting Handler/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Live Meeting Handler/Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.globedutech.com.Live-Meeting-Handler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFF7F25F2B0C097800BAB1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Live Meeting Handler/Live_Meeting_Handler.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Live Meeting Handler/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Live Meeting Handler/Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.globedutech.com.Live-Meeting-Handler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFF7F2612B0C097800BAB1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.globedutech.com.Live-Meeting-HandlerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Live Meeting Handler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Live Meeting Handler";
+			};
+			name = Debug;
+		};
+		EFF7F2622B0C097800BAB1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.globedutech.com.Live-Meeting-HandlerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Live Meeting Handler.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Live Meeting Handler";
+			};
+			name = Release;
+		};
+		EFF7F2642B0C097800BAB1E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.globedutech.com.Live-Meeting-HandlerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Live Meeting Handler";
+			};
+			name = Debug;
+		};
+		EFF7F2652B0C097800BAB1E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.globedutech.com.Live-Meeting-HandlerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Live Meeting Handler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFF7F2302B0C097600BAB1E2 /* Build configuration list for PBXProject "Live Meeting Handler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF7F25B2B0C097800BAB1E2 /* Debug */,
+				EFF7F25C2B0C097800BAB1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF7F25D2B0C097800BAB1E2 /* Build configuration list for PBXNativeTarget "Live Meeting Handler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF7F25E2B0C097800BAB1E2 /* Debug */,
+				EFF7F25F2B0C097800BAB1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF7F2602B0C097800BAB1E2 /* Build configuration list for PBXNativeTarget "Live Meeting HandlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF7F2612B0C097800BAB1E2 /* Debug */,
+				EFF7F2622B0C097800BAB1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFF7F2632B0C097800BAB1E2 /* Build configuration list for PBXNativeTarget "Live Meeting HandlerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFF7F2642B0C097800BAB1E2 /* Debug */,
+				EFF7F2652B0C097800BAB1E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFF7F22D2B0C097600BAB1E2 /* Project object */;
+}
